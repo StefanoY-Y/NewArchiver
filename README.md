@@ -23,10 +23,10 @@
 ```bash
 python program.py -b create test compressed.bz2   
 python program.py -b create test compressed.zstd
-```bash
+```
 
 ### Распаковка архива
 ```bash
 python program.py -b extract compressed.bz2 decompressed   
 python program.py -b extract compressed.zstd decompressed 
-```bash
+```
