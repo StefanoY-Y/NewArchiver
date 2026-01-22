@@ -52,7 +52,7 @@ def create_archive(source, output, benchmark_mode=False):
 
     if benchmark_mode:
         endTime = time.time()
-        print(f"Время архивации: {endTime - startTime} секунд")
+        print(f"Время архивации: {endTime - startTime:.4f} сек")
 
 
 def extract_archive(archive, output, benchmark_mode=False):
@@ -63,8 +63,7 @@ def extract_archive(archive, output, benchmark_mode=False):
         return False
 
     if not output.exists():
-        print(f"Выбранная директория {output} не существует")
-        return False
+        output.mkdir(parents=True, exist_ok=True)
 
     fileType = source.suffix
     if benchmark_mode:
@@ -79,7 +78,7 @@ def extract_archive(archive, output, benchmark_mode=False):
 
     if benchmark_mode:
         endTime = time.time()
-        print(f"Время извлечения: {endTime - startTime} секунд")
+        print(f"Время извлечения: {endTime - startTime:.4f} сек")
 
 def compress_bz2(source, output):
 
