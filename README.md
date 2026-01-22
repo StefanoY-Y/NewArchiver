@@ -34,3 +34,12 @@ python program.py -b extract compressed.bz2 decompressed
 ```bash
 python program.py -b extract compressed.zstd decompressed 
 ```
+## Скриншоты
+### Архивация zst
+![Image alt](https://github.com/StefanoY-Y/NewArchiver/blob/master/Screenshots/Screenshot_1.png)
+### Архивация bz2
+![Image alt](https://github.com/StefanoY-Y/NewArchiver/blob/master/Screenshots/Screenshot_2.png)
+### Распаковка zst
+![Image alt](https://github.com/StefanoY-Y/NewArchiver/blob/master/Screenshots/Screenshot_3.png)
+### Распаковка bz2
+![Image alt](https://github.com/StefanoY-Y/NewArchiver/blob/master/Screenshots/Screenshot_4.png)
