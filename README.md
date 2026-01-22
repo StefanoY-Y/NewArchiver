@@ -22,11 +22,15 @@
 ### Создание архива
 ```bash
 python program.py -b create test compressed.bz2   
+```
+```bash
 python program.py -b create test compressed.zstd
 ```
 
 ### Распаковка архива
 ```bash
 python program.py -b extract compressed.bz2 decompressed   
+```
+```bash
 python program.py -b extract compressed.zstd decompressed 
 ```
